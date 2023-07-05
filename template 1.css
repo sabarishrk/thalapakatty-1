@@ -1,0 +1,292 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(210, 205, 205); */
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    background-color: maroon;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(225, 225, 225); */
+    background-color: maroon;
+    color: white;
+}
+.header-img{
+    background-color: maroon;
+    position: relative;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.header-title{
+    margin-top: 1.5rem;
+    margin-left: -6rem;
+    text-transform: capitalize;
+   
+}
+.header-time{
+    text-transform: capitalize;
+    margin-top: 1.5rem; 
+    text-align: center;
+}
+.header-num{
+    margin: 1.5rem;
+}
+.header-btn{
+    margin: 1.5rem 1.5rem 1rem 1rem;
+}
+.header-btn a{
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid orange;  
+    color: orange;
+    border-radius: 1rem;
+    transition: background-color 0.3s,
+      color 0.3s box-shadow 0.3s;
+}
+.header-btn a:hover{
+    /* background-color: orangered; */
+    border: 1.5px solid black;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transform: translateY(2.5px);
+}
+
+.header-btn a:active{
+    opacity: 0.7;
+      
+}
+
+.homeservices{
+    text-align: center;
+    margin: 1rem 1rem;
+    /* color: orange; */
+}
+.homeservices a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: smaller;
+    margin: 0rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    color: white;
+    transition: background-color 0.5s,
+    color 0.5s box-shadow 0.5s;
+    cursor: pointer;
+
+}
+.homeservices a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    
+    /* transition: 0.5s; */
+}
+body .section1{
+    width: 100%;
+    height: 500px;
+    background-image: url(thalapakattybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+       
+}
+.section1>h3{
+    text-transform: uppercase;
+    color: maroon;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    
+    
+}
+.section2{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 3rem;
+}
+.headpara{
+    margin: 4rem 7rem 3rem ;
+    width: 30rem;
+    color: white;
+}
+.headpara h2{
+    margin-left: 0.5rem;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+.headpara p{
+    line-height: 1.5rem;
+    text-align: justify;
+    
+}
+.gm{
+    display: flex;
+    margin: 8rem 5rem;
+}
+.gmbtn1 button{
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    transition: background-color 0.5s,
+    color 0.5s box-shadow 0.5s;
+    cursor: pointer;
+    text-transform: capitalize;
+    
+}
+.gmbtn1 button:hover{
+    /* background-color: rgb(0, 0, 0); */
+    opacity: 0.8;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    /* color: rgb(255, 255, 255); */
+    
+    /* transition: 0.5s; */
+
+}
+.gmbtn1 button:active{
+    opacity: 0.4;
+    transform: translateY(2.5px);  
+}
+.gmbtn2 button{
+    margin-left: 2rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: white;
+    border: 1px solid orangered;  
+    color: orangered;
+    border-radius: 0.3rem;  
+    transition: background-color 0.5s,
+    color 0.5s box-shadow 0.5s;
+    text-transform: capitalize;
+}
+.gmbtn2 button:hover{
+    background-color: orangered;
+    color: rgb(225, 225, 225);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    /* background-color: orangered;
+    border: none; */
+    /* color: rgb(255, 255, 255); */
+    cursor: pointer;
+    /* transition: 0.5s; */
+
+}
+.gmbtn2 button:active{
+    opacity: 0.7;
+    transform: translateY(2.5px);  
+}
+.section3{
+    background-color: maroon;
+    display: flex;
+    color: azure;
+    width: 100%;
+    height: 300px;
+    
+}
+.part1 h1,.part2 h1,.part3 h1{
+
+    font-size: 4rem;
+    margin: 1rem 5rem 1rem 5rem;
+}
+.part1 h3,.part2 h3,.part3 h3{
+    font-size: 1.1rem;
+    margin: 1rem 5rem 1rem 5rem;
+    text-transform: capitalize;
+
+}
+.section4{
+    display: flex;
+    margin: 2rem -8rem -20rem;
+    color: white;
+
+}
+.parahead{
+    width: 30rem;
+    height: 40rem;
+    margin: 3rem 5rem 5rem 15rem;
+    
+}
+.parahead h3, .parahead .dgl{
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+figcaption{
+    text-transform: capitalize;
+    
+}    
+.section5{
+    width: 100%;
+    height: 15rem;
+    background-color: maroon;
+    
+}
+.section5 div{
+    text-align: center;
+}
+.section5 button{
+    margin: 6rem 1rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.1rem;
+    transition: background-color 1s,
+    color 0.5s box-shadow 0.5s;
+    text-transform: capitalize;
+}
+.section5 button:nth-child(1){
+    background-color: yellow;
+    border: none;
+    border-radius: 0.5rem;
+}
+.section5 button:nth-child(2){
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+}
+.section5 button:nth-child(3){
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+.section5 button:nth-child(1):hover{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.section5 button:nth-child(1):active{
+    opacity: 0.7;
+    transform: translateY(1px);  
+}
+.section5 button:nth-child(2):hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.section5 button:nth-child(2):active{
+    opacity: 0.7;
+    transform: translateY(1px);  
+}
+.section5 button:nth-child(3):hover{
+    background-color: lightcyan;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+}
+.section5 button:nth-child(3):active{
+    transform: translateY(1px);
+    opacity: 0.7; 
+}
